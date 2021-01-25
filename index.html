@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+  
+        <div class="checkboxes">
+        <label> 
+            <input type="checkbox"
+                          value="module1"> module 1</label>
+        <label> 
+            <input type="checkbox" 
+                           value="module2"> module 2</label> 
+         <label> 
+            <input type="checkbox" 
+                           value="module3"> module 3</label> 
+        <label> 
+            <input type="checkbox" 
+                           value="module4"> module 4</label>
+        <label> 
+            <input type="checkbox" 
+                           value="module5"> module 5</label>
+        </div>
+    <div class="mod1 " >
+    <ul class="module1 videolinks">
+        <li >Lorem1 ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+        <li >Vestibulum auctor dapibus neque.</li>
+        <li>Nunc dignissim risus id metus.</li>
+        <li >Cras ornare tristique elit.</li>
+        <li>Cras ornare tristique elit.</li>
+        <li >Vivamus vestibulum ntulla nec ante.</li>
+        <li>Praesent placerat risus quis eros.</li>
+        <li>Fusce pellentesque suscipit nibh.</li>
+        <li>Integer vitae libero ac risus egestas placerat.</li>
+        <li>Vestibulum commodo felis quis tortor.</li>
+        <li>Ut aliquam sollicitudin leo.</li>
+        <li>Cras iaculis ultricies nulla.</li>
+        <li>Donec quis dui at dolor tempor interdum.</li>
+    </ul>
+</div>
+<div class="mod2" >
+    <ul class="module2 videolinks">
+        <li >Lorem2 ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+        <li >Vestibulum auctor dapibus neque.</li>
+        <li>Nunc dignissim risus id metus.</li>
+        <li >Cras ornare tristique elit.</li>
+        <li>Cras ornare tristique elit.</li>
+        <li >Vivamus vestibulum ntulla nec ante.</li>
+        <li>Praesent placerat risus quis eros.</li>
+        <li>Fusce pellentesque suscipit nibh.</li>
+        <li>Integer vitae libero ac risus egestas placerat.</li>
+        <li>Vestibulum commodo felis quis tortor.</li>
+        <li>Ut aliquam sollicitudin leo.</li>
+        <li>Cras iaculis ultricies nulla.</li>
+        <li>Donec quis dui at dolor tempor interdum.</li>
+    </ul>
+</div>
+<div class="mod3 " >
+    <ul class="module3 videolinks">
+        <li >Lorem3 ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+        <li >Vestibulum auctor dapibus neque.</li>
+        <li>Nunc dignissim risus id metus.</li>
+        <li >Cras ornare tristique elit.</li>
+        <li>Cras ornare tristique elit.</li>
+        <li >Vivamus vestibulum ntulla nec ante.</li>
+        <li>Praesent placerat risus quis eros.</li>
+        <li>Fusce pellentesque suscipit nibh.</li>
+        <li>Integer vitae libero ac risus egestas placerat.</li>
+        <li>Vestibulum commodo felis quis tortor.</li>
+        <li>Ut aliquam sollicitudin leo.</li>
+        <li>Cras iaculis ultricies nulla.</li>
+        <li>Donec quis dui at dolor tempor interdum.</li>
+    </ul>
+</div>
+<div class="mod4 " >
+    <ul class="module4 videolinks">
+        <li >Lorem4 ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+        <li >Vestibulum auctor dapibus neque.</li>
+        <li>Nunc dignissim risus id metus.</li>
+        <li >Cras ornare tristique elit.</li>
+        <li>Cras ornare tristique elit.</li>
+        <li >Vivamus vestibulum ntulla nec ante.</li>
+        <li>Praesent placerat risus quis eros.</li>
+        <li>Fusce pellentesque suscipit nibh.</li>
+        <li>Integer vitae libero ac risus egestas placerat.</li>
+        <li>Vestibulum commodo felis quis tortor.</li>
+        <li>Ut aliquam sollicitudin leo.</li>
+        <li>Cras iaculis ultricies nulla.</li>
+        <li>Donec quis dui at dolor tempor interdum.</li>
+    </ul>
+</div>
+<div class="mod5 " >
+    <ul class="module5 videolinks">
+        <li >Lorem5 ipsum dolor sit amet. ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+        <li >Vestibulum auctor dapibus neque.</li>
+        <li>Nunc dignissim risus id metus.</li>
+        <li >Cras ornare tristique elit.</li>
+        <li>Cras ornare tristique elit.</li>
+        <li >Vivamus vestibulum ntulla nec ante.</li>
+        <li>Praesent placerat risus quis eros.</li>
+        <li>Fusce pellentesque suscipit nibh.</li>
+        <li>Integer vitae libero ac risus egestas placerat.</li>
+        <li>Vestibulum commodo felis quis tortor.</li>
+        <li>Ut aliquam sollicitudin leo.</li>
+        <li>Cras iaculis ultricies nulla.</li>
+        <li>Donec quis dui at dolor tempor interdum.</li>
+    </ul>
+</div>
+<script src= 
+"https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript"> 
+    $(document).ready(function() { 
+        $('input[type="checkbox"]').click(function() { 
+            var inputValue = $(this).attr("value"); 
+            $("." + inputValue).toggle(); 
+
+        }); 
+    }); 
+</script> 
+</body>
+</html>
