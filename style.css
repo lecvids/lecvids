@@ -41,3 +41,19 @@ li {
 .py-3 {
     padding: 30px 0
 }
+
+.mod2 {
+    color: chartreuse;
+}
+
+.mod3 {
+    color: darkgoldenrod;
+}
+
+.mod4 {
+    color: darkorchid;
+}
+
+.mod5 {
+    color: fuchsia;
+}
