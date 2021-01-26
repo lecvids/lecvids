@@ -44,8 +44,12 @@ ul li a {
     width: 600px;
 }
 
+ul {
+    padding-left: 30px;
+}
+
 li {
-    list-style: none;
+    list-style: decimal-leading-zero;
 }
 
 
@@ -63,18 +67,42 @@ li {
     padding: 30px 0
 }
 
+.mod1 a {
+    color: #330000;
+}
+
 .mod2 a {
-    color: rgb(90, 175, 4);
+    color: #003333;
 }
 
 .mod3 a {
-    color: darkgoldenrod;
+    color: #333366;
 }
 
 .mod4 a {
-    color: darkorchid;
+    color: #660033;
 }
 
 .mod5 a {
+    color: #330066;
+}
+
+.dark .mod2 a {
+    color: rgb(90, 175, 4);
+}
+
+.dark .mod3 a {
+    color: darkgoldenrod;
+}
+
+.dark .mod4 a {
+    color: darkorchid;
+}
+
+.dark .mod5 a {
     color: fuchsia;
+}
+
+.dark .mod1 a {
+    color: #4cacec;
 }
