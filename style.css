@@ -32,6 +32,7 @@ body {
     text-align: center;
     padding: 5px;
     margin-left: 8px;
+    margin-right: 10px;
 }
 
 .videolinks {
@@ -90,6 +91,10 @@ li {
 
 .mod5 a {
     color: #330066;
+}
+
+.misc a {
+    color: #330000;
 }
 
 .dark .mod2 a {
