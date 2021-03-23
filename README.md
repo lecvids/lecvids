@@ -22,5 +22,5 @@ CPC- Constitution of India, Professional Ethics and Cyber Law (18CPC39)
 Please contact us on WhatsApp if you would like to help sort and title video recordings or can improve functionality. Pull requests will be denied for now.
 
 ## Project Status
-The webpage currently includes three subjects. The other subjects will be updated in the upcoming days/weeks.
+The webpage currently includes five subjects. The other subjects will be updated in the upcoming days/weeks if possible.
 
