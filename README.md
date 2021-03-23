@@ -15,6 +15,8 @@ Math- Transform Calculus, Fourier Series and Numerical Techniques (18MAT31)
 
 ADE- Analog and Digital Electronics(18CS33)
 
+CPC- Constitution of India, Professional Ethics and Cyber Law (18CPC39)
+
 
 ## Contributing
 Please contact us on WhatsApp if you would like to help sort and title video recordings or can improve functionality. Pull requests will be denied for now.
