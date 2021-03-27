@@ -197,7 +197,14 @@ ul li a {
   text-decoration: none;
   color: #4cacec;
   padding: 5px;
-  width: 600px;
+  display: inline-block;
+  width: fit-content;
+}
+@supports not (width: fit-content) {
+  ul li a {
+    display: inline-block;
+    width: 600px;
+  }
 }
 
 ul {
