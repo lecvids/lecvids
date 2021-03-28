@@ -664,6 +664,11 @@
           document.body.classList.contains("dark") ? "dark" : "light"
         );
       });
+      if ($("body").hasClass("dark")) {
+        $(".change").text("OFF");
+      } else {
+        $(".change").text("ON");
+      }
 
       if (localStorage.getItem("theme") === "dark") {
         document.body.classList.add("dark");
