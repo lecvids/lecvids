@@ -40,9 +40,7 @@
           <label> <input type="checkbox" value="module4" /> Module 4</label>
           <label> <input type="checkbox" value="module5" /> Module 5</label>
         </div>
-        <div class="mode">
-          Dark mode: <span class="change" id="myBtn">OFF</span>
-        </div>
+        <div class="mode">Dark mode: <span class="change">OFF</span></div>
       </div>
 
       <div class="mod1">
@@ -453,17 +451,14 @@
           $("." + inputValue).toggle();
         });
       });
-      document.getElementById("myBtn").addEventListener("click", () => {
+      $(".change").on("click", function () {
         if ($("body").hasClass("dark")) {
+          $("body").removeClass("dark");
           $(".change").text("OFF");
         } else {
+          $("body").addClass("dark");
           $(".change").text("ON");
         }
-        document.body.classList.toggle("dark");
-        localStorage.setItem(
-          "theme",
-          document.body.classList.contains("dark") ? "dark" : "light"
-        );
       });
       if ($("body").hasClass("dark")) {
         $(".change").text("OFF");
