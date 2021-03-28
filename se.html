@@ -460,15 +460,6 @@
           $(".change").text("ON");
         }
       });
-      if ($("body").hasClass("dark")) {
-        $(".change").text("OFF");
-      } else {
-        $(".change").text("ON");
-      }
-
-      if (localStorage.getItem("theme") === "dark") {
-        document.body.classList.add("dark");
-      }
     </script>
   </body>
 </html>
