@@ -6,10 +6,12 @@
 
   #navbar {
     width: 320px;
+    /* margin-bottom: 50px; */
   }
 
   #navbar .container {
     width: 320px;
+
   }
 
   #navbar ul li:hover ul {
@@ -96,7 +98,11 @@
   }
 
   .videolinks li a {
-    width: 280px;
+    width: fit-content;
+  }
+
+  .main-body {
+    padding-top: 100px;
   }
 }
 
@@ -108,6 +114,8 @@
   h1 {
     font-size: 30px;
   }
+
+
 
   #navbar ul li:hover ul {
     display: none;
@@ -169,6 +177,10 @@
   .checkboxes label {
     padding: 4px;
   }
+
+  .main-body {
+    padding-top: 100px;
+  }
 }
 
 @media only screen and (max-width: 600px) and (min-width: 361px) {
@@ -177,7 +189,8 @@
   }
 
   ul li a {
-    width: 300px;
+    width: fit-content;
+
   }
 
   h1 {
@@ -204,6 +217,8 @@
   .l-heading {
     font-size: 30px;
   }
+
+
 
   #navbar ul li:hover ul {
     display: none;
@@ -254,6 +269,10 @@
 
     font-size: 20px;
   }
+
+  .main-body {
+    padding-top: 50px;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 601px) {
@@ -267,7 +286,8 @@
   }
 
   #navbar {
-    font-size: 27px;
+    font-size: 17px;
+
   }
 
   #navbar ul li {
@@ -275,7 +295,7 @@
   }
 
   #navbar ul li a {
-    width: 80px;
+    width: fit-content;
   }
 
   #about-info .container {
@@ -298,6 +318,10 @@
 
   #main-footer {
     font-size: 20px;
+  }
+
+  .main-body {
+    padding-top: 100px;
   }
 }
 
