@@ -266,6 +266,10 @@ ul li a {
   width: fit-content;
 }
 
+.code {
+  color: crimson;
+}
+
 @supports not (width: fit-content) {
   ul li a {
     display: inline-block;
