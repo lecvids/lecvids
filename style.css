@@ -75,6 +75,11 @@ a {
   background: #333;
 }
 
+.btn-dark:hover {
+  color: #f7c08a;
+  background: #000;
+}
+
 #navbar {
   background: #333;
   position: fixed;
@@ -255,6 +260,11 @@ a {
 .btn-light {
   background: #f4f4f4;
   color: #333;
+}
+
+.btn-dark {
+  background: #444;
+  color: #f4f4f4;
 }
 
 ul li a {
